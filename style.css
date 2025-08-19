@@ -1,0 +1,87 @@
+ <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: azure;
+            color: black;
+        }
+
+        header {
+            background-color: lch(71.76% 2.17 169.36);
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-family: Cambria;
+            font-size: 35px;
+        }
+
+        section.tentang-saya {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid black;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        section.skill {
+            background-color: hsl(170, 3%, 62%);
+            border: 1px solid black;
+            box-shadow: 0 8px rgba(0, 0, 0, 0.116);
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        section.riwayat {
+            background-color: rgb(241, 241, 241);
+            border-radius: 8px;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 3px solid black;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        footer {
+            background-color: rgb(170, 180, 177);
+            text-align: center;
+            padding: 15px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+
+        footer a.instagram {
+            color: rgb(255, 153, 0);
+        }
+
+        footer a.youtube {
+            color: red;
+        }
+        .belajar-box-sizing{
+            box-sizing: border-box;
+            background-color: azure;
+            width: 500px;
+            padding: 50px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
